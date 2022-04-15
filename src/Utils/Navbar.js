@@ -1,6 +1,6 @@
 import React from 'react'
-import logo from '../../images/logo2.png'
-import Button from '../../Utils/Button'
+import logo from '../images/logo2.png'
+import Button from './Button'
 export default function Navbar() {
     return (
         <nav className="flex justify-between itmes-center p-4">

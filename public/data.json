@@ -1,0 +1,127 @@
+[
+    {
+        "id": "6259a2ba5ac474a4f6b89063",
+        "picture": "https://raw.githubusercontent.com/ProgrammingHero1/red-onion/main/images/breakfast/breakfast1.png",
+        "category": "Breakfast",
+        "name": "Egg And Sausage"
+    },
+    {
+        "id": "6259a2ba0a9d807ba080347b",
+        "picture": "https://raw.githubusercontent.com/ProgrammingHero1/red-onion/main/images/breakfast/breakfast2.png",
+        "category": "Breakfast",
+        "name": "Fruits And Bread",
+        "price":"$5"
+    },
+    {
+        "id": "6259a2ba2d38206e91ef972d",
+        "picture": "https://raw.githubusercontent.com/ProgrammingHero1/red-onion/main/images/breakfast/breakfast3.png",
+        "category": "Breakfast",
+        "name": "Sandwich",
+        "price":"$5"
+    },
+    {
+        "id": "6259a2babca37b9c7c129966",
+        "picture": "https://raw.githubusercontent.com/ProgrammingHero1/red-onion/main/images/breakfast/breakfast4.png",
+        "category": "Breakfast",
+        "name": "Boiled Egg With Bread",
+        "price":"$5"
+    },
+    {
+        "id": "6259a2baa5bf658787af792e",
+        "picture": "https://raw.githubusercontent.com/ProgrammingHero1/red-onion/main/images/breakfast/breakfast5.png",
+        "category": "Breakfast",
+        "name": "Fried Bread And Rice With Sausage",
+        "price":"$5"
+    },
+    {
+        "id": "6259a2bad65cc455ba1ed53e",
+        "picture": "https://github.com/ProgrammingHero1/red-onion/blob/main/images/breakfast/breakfast6.png",
+        "category": "Breakfast",
+        "name": "Healthy Salad And Bread",
+        "price":"$5"
+    },
+    {
+        "id": "6259a2ba3d7458f847065c78",
+        "picture": "https://raw.githubusercontent.com/ProgrammingHero1/red-onion/main/images/dinner/dinner1.png",
+        "category": "Dinner",
+        "name": "Meat Rice With Salad",
+        "price":"$5"
+    },
+    {
+        "id": "6259a2bac4d98ff565cf0a1d",
+        "picture": "https://raw.githubusercontent.com/ProgrammingHero1/red-onion/main/images/dinner/dinner2.png",
+        "category": "Dinner",
+        "name": "Salmon With Salad",
+        "price":"$5"
+    },
+    {
+        "id": "6259a2baa236b1ee791d9107",
+        "picture": "https://raw.githubusercontent.com/ProgrammingHero1/red-onion/main/images/dinner/dinner3.png",
+        "category": "Dinner",
+        "name": "Meat With Salad",
+        "price":"$5"
+    },
+    {
+        "id": "6259a2ba65d2c6c234d29532",
+        "picture": "https://raw.githubusercontent.com/ProgrammingHero1/red-onion/main/images/dinner/dinner4.png",
+        "category": "Dinner",
+        "name": "Meat Mayonnaise Mint",
+        "price":"$5"
+    },
+    {
+        "id": "6259a2ba03704d656462a805",
+        "picture": "https://raw.githubusercontent.com/ProgrammingHero1/red-onion/main/images/dinner/dinner6.png",
+        "category": "Dinner",
+        "name": "Vagetable Salad With Fish",
+        "price":"$5"
+    },
+    {
+        "id": "6259a2ba18d972af89a208fe",
+        "picture": "https://raw.githubusercontent.com/ProgrammingHero1/red-onion/main/images/dinner/dinner5.png",
+        "category": "Dinner",
+        "name": "Bread And Salad",
+        "price":"$5"
+    },
+    {
+        "id": "6259a2baad095ebdd74395c4",
+        "picture": "https://raw.githubusercontent.com/ProgrammingHero1/red-onion/main/images/lunch/lunch1.png",
+        "category": "Lunch",
+        "name": "Healthy Meal Plan",
+        "price":"$5"
+    },
+    {
+        "id": "6259a2baffd2ca594f1c43a3",
+        "picture": "http://placehold.it/32x32",
+        "category": "Lunch",
+        "name": "Fried Chiken Bento",
+        "price":"$5"
+    },
+    {
+        "id": "6259a2ba479746084a7e9c65",
+        "picture": "http://placehold.it/32x32",
+        "category": "Lunch",
+        "name": "Tarraong Rubbed Salmon",
+        "price":"$5"
+    },
+    {
+        "id": "6259a2ba10fb882bfd4e70f0",
+        "picture": "http://placehold.it/32x32",
+        "category": "Lunch",
+        "name": "Indian Lunch",
+        "price":"$5"
+    },
+    {
+        "id": "6259a2baf74ddf2f452ffefe",
+        "picture": "http://placehold.it/32x32",
+        "category": "Lunch",
+        "name": "Beaf Steak",
+        "price":"$5"
+    },
+    {
+        "id": "6259a2ba05c9aa99a3eef075",
+        "picture": "http://placehold.it/32x32",
+        "category": "Lunch",
+        "name": "Hone Soy Glazed Salmon WIth Pepper",
+        "price":"$5"
+    }
+]

@@ -1,14 +1,11 @@
 import React from 'react'
 import HomeBanner from './HomeBanner'
-import Navbar from './Navbar'
-import Cartegory from './Tabs.js'
-
+import Category from './Category.js'
 export default function Home() {
     return (
         <div>
-            <Navbar />
             <HomeBanner />
-            <Cartegory />
+            <Category />
         </div>
     )
 }
