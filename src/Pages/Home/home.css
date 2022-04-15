@@ -1,0 +1,8 @@
+.homebanner {
+    background-image: url('../../images/homebanner.png');
+    background-size: cover;
+    position: absolute;
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
