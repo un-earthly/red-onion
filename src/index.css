@@ -16,3 +16,13 @@
 .animate-spin {
     animation-duration: 4s;
 }
+
+
+input:focus-within~label,
+input:not(:placeholder-shown)~label {
+    @apply transform scale-75 -translate-y-6;
+}
+
+input:focus-within~label {
+    @apply text-[#f91944];
+}
