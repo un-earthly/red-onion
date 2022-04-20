@@ -26,3 +26,52 @@ input:not(:placeholder-shown)~label {
 input:focus-within~label {
     @apply text-[#f91944];
 }
+
+.react-tabs__tab-list {
+    border: none !important;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.react-tabs__tab {
+    border: none !important;
+    padding-bottom: 2px !important;
+    transition: .7s;
+}
+
+.react-tabs__tab:hover {
+    color: #f91944 !important;
+}
+
+.react-tabs__tab::after {
+    content: '';
+    position: absolute !important;
+    bottom: 0px !important;
+    left: 50% !important;
+    transform: translate(-50%, 0) !important;
+    height: 2px !important;
+    width: 0% !important;
+    background-color: #f91944 !important;
+    transition: .7s;
+}
+
+.react-tabs__tab:hover:after {
+    width: 40% !important;
+}
+
+.react-tabs__tab--selected {
+    position: relative !important;
+    color: #f91944 !important;
+    padding-bottom: 2px !important;
+}
+
+.react-tabs__tab--selected::after {
+    content: '';
+    position: absolute !important;
+    bottom: 0px !important;
+    left: 50% !important;
+    transform: translate(-50%, 0) !important;
+    height: 2px !important;
+    width: 40% !important;
+    background-color: #f91944 !important;
+}

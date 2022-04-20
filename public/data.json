@@ -1,126 +1,126 @@
 [
     {
         "id": "6259a2ba5ac474a4f6b89063",
-        "picture": "https://raw.githubusercontent.com/ProgrammingHero1/red-onion/main/images/breakfast/breakfast1.png",
+        "img": "https://raw.githubusercontent.com/ProgrammingHero1/red-onion/main/images/breakfast/breakfast1.png",
         "category": "Breakfast",
         "name": "Eggs Benedict",
         "price": "$8.99"
     },
     {
         "id": "6259a2ba0a9d807ba080347b",
-        "picture": "https://raw.githubusercontent.com/ProgrammingHero1/red-onion/main/images/breakfast/breakfast2.png",
+        "img": "https://raw.githubusercontent.com/ProgrammingHero1/red-onion/main/images/breakfast/breakfast2.png",
         "category": "Breakfast",
         "name": "Breakfast Sandwich",
         "price": "$9.99"
     },
     {
         "id": "6259a2ba2d38206e91ef972d",
-        "picture": "https://raw.githubusercontent.com/ProgrammingHero1/red-onion/main/images/breakfast/breakfast3.png",
+        "img": "https://raw.githubusercontent.com/ProgrammingHero1/red-onion/main/images/breakfast/breakfast3.png",
         "category": "Breakfast",
         "name": "Baked Chiken",
         "price": "$10.99"
     },
     {
         "id": "6259a2babca37b9c7c129966",
-        "picture": "https://raw.githubusercontent.com/ProgrammingHero1/red-onion/main/images/breakfast/breakfast4.png",
+        "img": "https://raw.githubusercontent.com/ProgrammingHero1/red-onion/main/images/breakfast/breakfast4.png",
         "category": "Breakfast",
         "name": "Bagel and cream cheese",
         "price": "$6.99"
     },
     {
         "id": "6259a2baa5bf658787af792e",
-        "picture": "https://raw.githubusercontent.com/ProgrammingHero1/red-onion/main/images/breakfast/breakfast5.png",
+        "img": "https://raw.githubusercontent.com/ProgrammingHero1/red-onion/main/images/breakfast/breakfast5.png",
         "category": "Breakfast",
         "name": "Fried egg toast brunch",
         "price": "$3.99"
     },
     {
         "id": "6259a2bad65cc455ba1ed53e",
-        "picture": "https://raw.githubusercontent.com/ProgrammingHero1/red-onion/main/images/breakfast/breakfast6.png",
+        "img": "https://raw.githubusercontent.com/ProgrammingHero1/red-onion/main/images/breakfast/breakfast6.png",
         "category": "Breakfast",
         "name": "Toast Croissant Fried Egg",
         "price": "$19.99"
     },
     {
         "id": "6259a2ba3d7458f847065c78",
-        "picture": "https://raw.githubusercontent.com/ProgrammingHero1/red-onion/main/images/dinner/dinner1.png",
+        "img": "https://raw.githubusercontent.com/ProgrammingHero1/red-onion/main/images/dinner/dinner1.png",
         "category": "Dinner",
         "name": "Baked Chiken",
         "price": "$9.99"
     },
     {
         "id": "6259a2bac4d98ff565cf0a1d",
-        "picture": "https://raw.githubusercontent.com/ProgrammingHero1/red-onion/main/images/dinner/dinner2.png",
+        "img": "https://raw.githubusercontent.com/ProgrammingHero1/red-onion/main/images/dinner/dinner2.png",
         "category": "Dinner",
         "name": "Lemone Salmon Piccata",
         "price": "$10.99"
     },
     {
         "id": "6259a2baa236b1ee791d9107",
-        "picture": "https://raw.githubusercontent.com/ProgrammingHero1/red-onion/main/images/dinner/dinner3.png",
+        "img": "https://raw.githubusercontent.com/ProgrammingHero1/red-onion/main/images/dinner/dinner3.png",
         "category": "Dinner",
         "name": "Gurlic Butter Baked Salmon",
         "price": "$6.99"
     },
     {
         "id": "6259a2ba65d2c6c234d29532",
-        "picture": "https://raw.githubusercontent.com/ProgrammingHero1/red-onion/main/images/dinner/dinner4.png",
+        "img": "https://raw.githubusercontent.com/ProgrammingHero1/red-onion/main/images/dinner/dinner4.png",
         "category": "Dinner",
         "name": "French Fries With Cheese",
         "price": "$9.99"
     },
     {
         "id": "6259a2ba03704d656462a805",
-        "picture": "https://raw.githubusercontent.com/ProgrammingHero1/red-onion/main/images/dinner/dinner6.png",
+        "img": "https://raw.githubusercontent.com/ProgrammingHero1/red-onion/main/images/dinner/dinner6.png",
         "category": "Dinner",
         "name": "Salmon With Grapefruit and lentil salad",
         "price": "$9.99"
     },
     {
         "id": "6259a2ba18d972af89a208fe",
-        "picture": "https://raw.githubusercontent.com/ProgrammingHero1/red-onion/main/images/dinner/dinner5.png",
+        "img": "https://raw.githubusercontent.com/ProgrammingHero1/red-onion/main/images/dinner/dinner5.png",
         "category": "Dinner",
         "name": "pork tenderloin with quinoa pilaf",
         "price": "$12.99"
     },
     {
         "id": "6259a2baad095ebdd74395c4",
-        "picture": "https://raw.githubusercontent.com/ProgrammingHero1/red-onion/main/images/lunch/lunch6.png",
+        "img": "https://raw.githubusercontent.com/ProgrammingHero1/red-onion/main/images/lunch/lunch6.png",
         "category": "Lunch",
         "name": "Healthy Meal Plan",
         "price": "$35"
     },
     {
         "id": "6259a2baffd2ca594f1c43a3",
-        "picture": "https://raw.githubusercontent.com/ProgrammingHero1/red-onion/main/images/lunch/lunch5.png",
+        "img": "https://raw.githubusercontent.com/ProgrammingHero1/red-onion/main/images/lunch/lunch5.png",
         "category": "Lunch",
         "name": "Fried Chiken Bento",
         "price": "$15"
     },
     {
         "id": "6259a2ba479746084a7e9c65",
-        "picture": "https://raw.githubusercontent.com/ProgrammingHero1/red-onion/main/images/lunch/lunch3.png",
+        "img": "https://raw.githubusercontent.com/ProgrammingHero1/red-onion/main/images/lunch/lunch3.png",
         "category": "Lunch",
         "name": "Tarraong Rubbed Salmon",
         "price": "$15.80"
     },
     {
         "id": "6259a2ba10fb882bfd4e70f0",
-        "picture": "https://raw.githubusercontent.com/ProgrammingHero1/red-onion/main/images/lunch/lunch4.png",
+        "img": "https://raw.githubusercontent.com/ProgrammingHero1/red-onion/main/images/lunch/lunch4.png",
         "category": "Lunch",
         "name": "Indian Lunch",
         "price": "$15.99"
     },
     {
         "id": "6259a2baf74ddf2f452ffefe",
-        "picture": "https://raw.githubusercontent.com/ProgrammingHero1/red-onion/main/images/lunch/lunch1.png",
+        "img": "https://raw.githubusercontent.com/ProgrammingHero1/red-onion/main/images/lunch/lunch1.png",
         "category": "Lunch",
         "name": "Beaf Steak",
         "price": "$21.5"
     },
     {
         "id": "6259a2ba05c9aa99a3eef075",
-        "picture": "https://raw.githubusercontent.com/ProgrammingHero1/red-onion/main/images/lunch/lunch1.png",
+        "img": "https://raw.githubusercontent.com/ProgrammingHero1/red-onion/main/images/lunch/lunch1.png",
         "category": "Lunch",
         "name": "Hone Soy Glazed Salmon WIth Pepper",
         "price": "$5.99"
