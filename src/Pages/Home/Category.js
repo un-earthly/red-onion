@@ -1,6 +1,7 @@
 import React from 'react'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
+import Button from '../../Utils/Button';
 import Service from '../../Utils/Service';
 import useFoodCategory from '../../Utils/useFoodCategory';
 
@@ -10,7 +11,7 @@ export default function Category() {
     const lunch = foods.filter(food => food.category.toLowerCase() === 'lunch')
     const dinner = foods.filter(food => food.category.toLowerCase() === 'dinner')
     return (
-        <div>
+        <div className='my-3'>
             <Tabs>
                 <TabList>
                     <Tab>Breakfast</Tab>
@@ -43,6 +44,7 @@ export default function Category() {
                     </div>
                 </TabPanel>
             </Tabs>
+            <Button btnText='Checkout Your Food' classList='mx-auto block rounded-md bg-[#cecece] mt-7 py-2 duration-500 hover:bg-[#f91944]' />
         </div>
     )
 }

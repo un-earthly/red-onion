@@ -2,7 +2,6 @@ import React, { useRef, useState } from 'react'
 import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth'
 import { Link } from 'react-router-dom'
 import { toast, ToastContainer } from 'react-toastify'
-import 'react-toastify/dist/ReactToastify.css';
 import auth from '../../../firebase.init'
 import Button from '../../../Utils/Button'
 
@@ -12,26 +11,16 @@ export default function Register() {
     const emailRef = useRef('')
     const passwordRef = useRef('')
     const confirmPasswordRef = useRef('')
-    const [CreateUserWithEmailAndPassword, emailUser, emailUserLoading, emailUserError] = useCreateUserWithEmailAndPassword(auth)
-    if (emailUserError) {
-        toast(emailUserError.message)
-    }
-    if (emailUserLoading) {
-        toast('Please Wait')
-    }
+    const [CreateUserWithEmailAndPassword, , emailUserLoading, emailUserError] = useCreateUserWithEmailAndPassword(auth)
     const handleRegister = e => {
         e.preventDefault()
         const email = emailRef.current.value
         const password = passwordRef.current.value
         const confirmPassword = confirmPasswordRef.current.value
-        if (email && password) {
-            if (/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[#$@!%&*?])[A-Za-z\d#$@!%&*?]{8}$/.test(password) && password === confirmPassword) {
-                CreateUserWithEmailAndPassword(email, password)
-            } else {
-                toast('please enter a password with Min 1 uppercase letter 1 special character 1 number and 8 charachters only.')
-            }
+        if (/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[#$@!%&*?])[A-Za-z\d#$@!%&*?]{8}$/.test(password) && password === confirmPassword) {
+            CreateUserWithEmailAndPassword(email, password)
         } else {
-            toast('please fill out all the fields properly')
+            return toast('please enter a password with Min 1 uppercase letter 1 special character 1 number and 8 charachters only.')
         }
     }
     return (

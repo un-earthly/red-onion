@@ -2,7 +2,6 @@ import { signOut } from 'firebase/auth'
 import React, { useEffect, useState } from 'react'
 import { useAuthState } from 'react-firebase-hooks/auth'
 import { Link } from 'react-router-dom'
-import { toast, ToastContainer } from 'react-toastify'
 import auth from '../firebase.init'
 import logo from '../images/logo2.png'
 import Button from './Button'
@@ -21,10 +20,10 @@ export default function Navbar() {
         changeBackground()
         window.addEventListener("scroll", changeBackground)
     })
-    loading ? toast('Plase Wait') : toast('Logged Out Successfully')
+
 
     return (
-        <nav className={`flex justify-between itmes-center p-4 sticky top-0 ${navBG ? 'backdrop-blur-lg shadow-lg' : ''} `}>
+        <nav className={`z-10 flex justify-between itmes-center p-4 sticky top-0 ${navBG ? 'backdrop-blur-lg shadow-lg' : ''} `}>
             <Link to='/'> <img className='ml-16 h-10' src={logo} alt="" /></Link>
 
             <div>

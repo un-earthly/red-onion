@@ -7,6 +7,7 @@ import Home from './Pages/Home/Home.js';
 import Error from './Pages/Error.js'
 import Navbar from './Utils/Navbar.js';
 import Footer from './Utils/Footer.js';
+import Cart from './Pages/Cart/Cart.js';
 function App() {
   return (
     <div className="App">
@@ -15,6 +16,11 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/login' element={<Login />} />
         <Route path='/register' element={<Register />} />
+        <Route path='/cart' element={
+          <UserRoute>
+            <Cart />
+          </UserRoute>
+        } />
         <Route path='/checkout' element={
           <UserRoute>
             <Checkout />
