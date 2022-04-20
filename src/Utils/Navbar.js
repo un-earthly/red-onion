@@ -6,7 +6,7 @@ import auth from '../firebase.init'
 import logo from '../images/logo2.png'
 import Button from './Button'
 export default function Navbar() {
-    const [user, loading] = useAuthState(auth)
+    const [user] = useAuthState(auth)
     const [navBG, setNavBG] = useState(false)
     const changeBackground = () => {
         if (window.scrollY >= 66) {
