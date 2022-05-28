@@ -3,6 +3,7 @@ import { Link, useLocation, useNavigate } from 'react-router-dom'
 import Button from '../../Utils/Button'
 import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth'
 import auth from '../../firebase.init'
+import Social from '../../Utils/Social'
 export default function Login() {
     const [showpass, setShowpass] = useState(false)
     const emailRef = useRef('')
@@ -40,6 +41,9 @@ export default function Login() {
 
             </form>
             <Link to='/register'><p className="text-[#f91944] m-3 text-center cursor-pointer">New Here? Sign Up</p></Link>
+
+
+            <Social />
         </div>
     )
 }
