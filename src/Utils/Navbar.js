@@ -34,7 +34,7 @@ export default function Navbar() {
                     :
                     <>
                         <Link to='/login'><Button classList='bg-transparent text-black mx-2 hover:bg-[#f91944] hover:text-white' btnText='Login' /></Link>
-                        <Link to='/register'><Button btnText='Register' classList='hover:bg-transparent border border-transparent hover:border hover:border-[#f91944] hover:text-black' /></Link>
+                        <Link to='/register'><Button btnText='Register' classList='hover:bg-transparent bg-[#f91944] text-white border border-transparent hover:border hover:border-[#f91944] hover:text-black' /></Link>
                     </>
 
 
